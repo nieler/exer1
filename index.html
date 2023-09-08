@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+.<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -32,25 +32,25 @@
 
 <script>
   function displaySum() {
-  let firstNum = Number(getElementById('firstNum').innerHTML)
-  let secondNum = Number(getElementById('secondNum').innerHTML)
+  let firstNum = Number(Document.getElementById('firstNum').innerHTML)
+  let secondNum = Number(Document.getElementById('secondNum').innerHTML)
 
   let total = firstNum + secondNum;
-  getElementById("answer").innerHTML = ` ${firstNum} + ${secondNum}, equals to ${total}` ;
+  Document.getElementById("answer").innerHTML = ` ${firstNum} + ${secondNum}, equals to ${total}` ;
 }
 
-getElementById('sumButton').addEventListener("click", displaySum);
+gDocument.etElementById('sumButton').addEventListener("click", displaySum);
 </script>
   
 <script>
   function displayProduct() {
-  let firstNum = Number(getElementById('firstNum').innerHTML)
-  let secondNum = Number(getElementById('secondNum').innerHTML)
+  let firstNum = Number(Document.getElementById('firstNum').innerHTML)
+  let secondNum = Number(Document.getElementById('secondNum').innerHTML)
 
   let total = firstNum * secondNum;
-  getElementById("answer2").innerHTML = ` ${firstNum} * ${secondNum}, equals to ${total}` ;
+  Document.getElementById("answer2").innerHTML = ` ${firstNum} * ${secondNum}, equals to ${total}` ;
 }
 
-getElementById('ProductButton').addEventListener("click", displayProduct); 
+Document.getElementById('ProductButton').addEventListener("click", displayProduct); 
 </script>
 </html>
