@@ -32,25 +32,25 @@
 
 <script>
   function displaySum() {
-  let firstNum = Number(Document.getElementById('firstNum').innerHTML)
-  let secondNum = Number(Document.getElementById('secondNum').innerHTML)
+  let firstNum = Number(document.getElementById('firstNum').innerHTML)
+  let secondNum = Number(document.getElementById('secondNum').innerHTML)
 
   let total = firstNum + secondNum;
-  Document.getElementById("answer").innerHTML = ` ${firstNum} + ${secondNum}, equals to ${total}` ;
+  document.getElementById("answer").innerHTML = ` ${firstNum} + ${secondNum}, equals to ${total}` ;
 }
 
-gDocument.etElementById('sumButton').addEventListener("click", displaySum);
+document.etElementById('sumButton').addEventListener("click", displaySum);
 </script>
   
 <script>
   function displayProduct() {
-  let firstNum = Number(Document.getElementById('firstNum').innerHTML)
-  let secondNum = Number(Document.getElementById('secondNum').innerHTML)
+  let firstNum = Number(document.getElementById('firstNum').innerHTML)
+  let secondNum = Number(document.getElementById('secondNum').innerHTML)
 
   let total = firstNum * secondNum;
-  Document.getElementById("answer2").innerHTML = ` ${firstNum} * ${secondNum}, equals to ${total}` ;
+  document.getElementById("answer2").innerHTML = ` ${firstNum} * ${secondNum}, equals to ${total}` ;
 }
 
-Document.getElementById('ProductButton').addEventListener("click", displayProduct); 
+document.getElementById('ProductButton').addEventListener("click", displayProduct); 
 </script>
 </html>
