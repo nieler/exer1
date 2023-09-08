@@ -39,16 +39,6 @@
   getElementById("answer").innerHTML = ` ${firstNum} + ${secondNum}, equals to ${total}` ;
 }
 
-getElementById('sumButton').addEventListener("click", displaySum);
-
-  function displayProduct() {
-  let firstNum = Number(getElementById('firstNum').innerHTML)
-  let secondNum = Number(getElementById('secondNum').innerHTML)
-
-  let total = firstNum * secondNum;
-  getElementById("answer2").innerHTML = ` ${firstNum} * ${secondNum}, equals to ${total}` ;
-}
-
-getElementById('ProductButton').addEventListener("click", displayProduct); 
+getElementById('sumButton').addEventListener("click", displaySum); 
 </script>
 </html>
