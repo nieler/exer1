@@ -9,7 +9,7 @@
 
 document.getElementById('sumButton').addEventListener("click", displaySum); 
 </script>
-  <script>
+<script>
       function displayProduct() {
   let firstNum = Number(getElementById('firstNum').innerHTML)
   let secondNum = Number(getElementById('secondNum').innerHTML)
@@ -19,4 +19,4 @@ document.getElementById('sumButton').addEventListener("click", displaySum);
 }
 
 getElementById('ProductButton').addEventListener("click", displayProduct);
-  </script>
+</script>
